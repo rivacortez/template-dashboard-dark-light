@@ -1,4 +1,4 @@
-/*=============== SIDEBAR ===============*/
+
 .sidebar{
    position: fixed;
    left: -120%;
@@ -12,7 +12,7 @@
    margin: .75rem;
    border-radius: 1rem;
    transition: left .4s, background-color .4s, width .4s;
-   
+
    &__container,
    &__content{
       display: flex;
@@ -58,7 +58,7 @@
    }
    &__content{
       overflow: hidden auto;
-      
+
       &::-webkit-scrollbar{
          width: .4rem;
          background-color:hsl(228, 8%, 85%);
@@ -117,12 +117,12 @@
    }
 }
 
-/* Show sidebar */
+
 .show-sidebar{
    left: 0;
 }
 
-/* Active link */
+
 .active-link{
    color: var(--first-color);
 

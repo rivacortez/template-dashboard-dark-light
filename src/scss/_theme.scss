@@ -1,4 +1,4 @@
-/*=============== VARIABLES DARK THEME ===============*/
+
 body.dark-theme{
 	--first-color: hsl(96, 100%, 50%);
    --title-color: hsl(228, 18%, 96%);
@@ -7,10 +7,7 @@ body.dark-theme{
    --shadow-color: hsla(0, 0%, 100%, 0.3);
 }
 
-/*========== 
-	Color changes in some parts of 
-	the website, in dark theme
-==========*/
+
 .dark-theme .sidebar__content{
    &::-webkit-scrollbar{
       background-color:hsl(228, 16%, 30%);
